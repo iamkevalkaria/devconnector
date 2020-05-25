@@ -2,11 +2,12 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"editor.formatOnSave": true,
-"prettier.vueIndentScriptAndStyle": true,
-"auto-rename-tag.activationOnLanguage": [
+  },
 
-  "*"
-]
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "editor.formatOnSave": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "emmet.excludeLanguages": ["markdown"],
 }
